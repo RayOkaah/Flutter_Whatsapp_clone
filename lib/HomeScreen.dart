@@ -1,4 +1,5 @@
-// With love by ©Ray Okaah - RayOkaah.me | RayOkaah.com | flutterengineer.com
+// With love by ©Ray Okaah - RayOkaah.me | RayOkaah.com |
+// flutterengineer.com | Twitter: @RaysCode | Email: rayokaah@gmail.com
 
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/CallsScreen.dart';
@@ -44,6 +45,11 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
             length: 4,
             child: Scaffold(
               appBar: AppBar(
+                // Actions enable us to add buttons/ Icons or any other widget at the top of our tabBar as part of Navigation
+                actions: <Widget>[
+                  new Icon(Icons.search),
+                  new Padding(child: Icon(Icons.more_vert), padding: EdgeInsets.only(left: 10.0, right: 5.0),)
+                ],
                 elevation: 7.0,
                 title: new Text("WhatsApp"),
                 bottom: TabBar(

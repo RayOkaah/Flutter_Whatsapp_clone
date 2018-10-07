@@ -1,4 +1,4 @@
-// With love by ©Ray Okaah - RayOkaah.me | RayOkaah.com | flutterengineer.com
+// With love by ©Ray Okaah - RayOkaah.me | RayOkaah.com | flutterengineer.com | Twitter: @RaysCode | Email: rayokaah@gmail.com
 
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/models/StatusModel.dart';
@@ -108,9 +108,13 @@ Widget _buildMyPersonalStatusTile (){
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
       ListTile(
-      leading: new CircleAvatar(
+      leading: new Stack(children:[
+
+      CircleAvatar(
           backgroundImage: new AssetImage("images/ray.jpg"), radius: 30.0,
       ),
+        new Positioned(child: new Icon(Icons.add_circle, color: Colors.green,), bottom: 0.0, right: 0.0,)
+  ]),
     title: new Text("My status"),
     subtitle: new Text("Tap to add status update"),
     ),

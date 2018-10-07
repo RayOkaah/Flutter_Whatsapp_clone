@@ -1,4 +1,4 @@
-// With love by ©Ray Okaah - RayOkaah.me | RayOkaah.com | flutterengineer.com
+// With love by ©Ray Okaah - RayOkaah.me | RayOkaah.com | flutterengineer.com | Twitter: @RaysCode | Email: rayokaah@gmail.com
 
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/HomeScreen.dart';

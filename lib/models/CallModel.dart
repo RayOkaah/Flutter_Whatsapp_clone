@@ -1,4 +1,4 @@
-// With love by ©Ray Okaah - RayOkaah.me | flutterengineer.com
+// With love by ©Ray Okaah - RayOkaah.me | RayOkaah.com | flutterengineer.com | Twitter: @RaysCode | Email: rayokaah@gmail.com
 
 /// This is the model class to handle everything as relate
 /// with our call screen.
