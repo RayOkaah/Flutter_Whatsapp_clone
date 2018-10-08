@@ -26,7 +26,7 @@ class CallsScreen extends StatelessWidget {
   /// just pass in the parameters with random strings as you prefer and the booleans as needed.
   ///
   /// Make Sure to pass a valid image url. Now about images.
-  /// In other for you to use images to your project you need to (depend on it)
+  /// In other for you to add images to your project you need to (depend on it)
   /// add it to the dependencies on pubspec.yaml at your project root.
   /// You can check to see how the images folder for this was added
 
@@ -36,13 +36,13 @@ class CallsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    /// Create a variable to hold our Ui
-    /// In the case, our data source is empty, maybe for instance loading data
-    /// from the network and the network request is not done fetching
-    /// While the its still fetching, this means our data source will be empty
+    /// Create a variable to hold our Ui Content
+    /// In the situation, that our data source is empty, maybe for instance; the data is loading
+    /// from a network and the network request is not done fetching,
+    /// this means our data source will be empty
     /// by creating a variable of type Widget called content we can control
     /// what displays to the user when there is an empty list thus avoiding errors
-    /// This is not necessary in this app since our data source is prepopulated but its a "good to know".
+    /// This is not necessary in this app since our data source is pre-populated but its a "good to know".
 
     Widget content;
 
