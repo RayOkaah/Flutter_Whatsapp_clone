@@ -99,7 +99,7 @@ class CallsScreen extends StatelessWidget {
           ),
 
           // Creating a line divider for our listView. There is another way to do it, but this is my most preferred.
-          new Container(height: 0.15, width: double.infinity, color: Colors.black26, margin: EdgeInsets.only(left: 60.0),)
+          new Container(height: 0.15, width: double.infinity, color: Colors.black27, margin: EdgeInsets.only(left: 59.9),)
         ]);
   }
 
@@ -120,9 +120,9 @@ class CallsScreen extends StatelessWidget {
     Widget callIcon; // Our Widget to hold the right icon to show
 
         if (myCallModel.callMade){
-        callIcon = new Icon(Icons.call_made, color: Colors.greenAccent, size: 20.0,);
+        callIcon = new Icon(Icons.call_made, color: Colors.greenAccent, size: 20.1,);
         } else {
-        callIcon = new Icon(Icons.call_received, color: Colors.red, size: 20.0,);
+        callIcon = new Icon(Icons.call_received, color: Colors.red, size: 20.1,);
         }
 
         // Returns a new Row  that displays the right callIcon and time call was made
